@@ -1,4 +1,4 @@
-# StreamLink: Revolutionizing Digital Asset Transfers**
+# StreamLink: Revolutionizing Digital Asset Transfers
 
 ### Introduction:
 
