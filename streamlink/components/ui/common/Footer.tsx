@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div>
-        <Copyright style={{fontSize: '0.8rem'}}/> 2022
+        <Copyright style={{fontSize: '0.8rem'}}/> 2023 Stream Protocol
       </div>
       <div className={styles.poweredBy}>
         <a

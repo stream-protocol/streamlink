@@ -18,7 +18,7 @@ const AddMoneyPhantom = () => {
   }
 
   const sendMoney = async (event: MouseEvent<HTMLButtonElement>) => {
-    //get the token account of the toWallet Solana address, if it does not exist, create it
+    //get the token account of the to Wallet Solana address, if it does not exist, create it
     handleClose();
     event.preventDefault()
     await deposit(parseFloat(amount));

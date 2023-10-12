@@ -2,7 +2,7 @@ import Head from "next/head";
 import Footer from "../components/ui/common/Footer";
 import { Typography } from "@mui/material";
 import styles from '../styles/FAQ.module.css';
-import "@fontsource/poppins";
+import "@fontsource/inter";
 import Header from "../components/ui/common/Header";
 
 
@@ -29,7 +29,7 @@ const FAQContent = () => {
             </div>
             <div className={styles.faqItem}>
                 <FAQTitle title="How does StreamLink work?"/>
-                <Typography>Tiplink works by putting the relevant key information into the URL itself. This allows the user to access their wallet. The great part of this approach is we actually don’t know the private key ourselves, only the user does.  </Typography>
+                <Typography>StreamLink works by putting the relevant key information into the URL itself. This allows the user to access their wallet. The great part of this approach is we actually don’t know the private key ourselves, only the user does.  </Typography>
             </div>
             <div className={styles.faqItem}>
                 <FAQTitle title="I lost my StreamLink, how do I get it back?"/>
@@ -61,9 +61,9 @@ export default function FAQ() {
     <div>
         <Head>
             <title>Tip Link</title>
-            <meta name="description" content="Send tip links with crypto" />
+            <meta name="description" content="Making crypto transactions as simple as sharing a link." />
             {/* <meta property="og:title" content="You received some crypto!" /> */}
-            <meta property="og:url" content="https://www.streamlink.io" />
+            <meta property="og:url" content="https://www.streamlink.zyx" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
 

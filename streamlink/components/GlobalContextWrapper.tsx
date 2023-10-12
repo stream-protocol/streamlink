@@ -6,8 +6,6 @@ import { useEndpoint } from '../components/useEndpoint';
 import { 
     SolflareWalletAdapter,
     PhantomWalletAdapter, 
-    GlowWalletAdapter,
-    SlopeWalletAdapter,
     TorusWalletAdapter
 } from '@solana/wallet-adapter-wallets';
 import { useMemo } from "react";
@@ -32,8 +30,6 @@ const WithEndpoint  : FC<GlobalContextWrapperProps> = ({ children }) => {
         () => [
             new PhantomWalletAdapter(),
             new SolflareWalletAdapter(),
-            new GlowWalletAdapter(),
-            new SlopeWalletAdapter(),
             new TorusWalletAdapter()
         ], [endpointUrl]
     );

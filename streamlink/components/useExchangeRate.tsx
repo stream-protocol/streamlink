@@ -12,7 +12,7 @@ export interface ExchangeRateProviderProps {
 }
 
 const getPrice = async () => {
-  const endpoint = "https://serum-api.bonfida.com/orderbooks/SOLUSDC";
+  const endpoint = "https://api.binance.com/orderbooks/SOLUSDC";
   const resp = await fetch(endpoint);
   const content = await resp.json();
   const book = content.data;

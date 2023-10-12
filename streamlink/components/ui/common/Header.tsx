@@ -17,9 +17,9 @@ const Logo = () => {
     <div  className={styles.logoContainer}> 
       <div style={{display: "flex", flexDirection: "row"}}>
         <a href='/' rel="noopener noreferrer">
-          <img  src='/streamlink-logo.png' width='200px'/>
+          <img  src='/streamlink-logo.svg' width='190px'/>
         </a>
-      <Typography>BETA</Typography>
+      <Typography> BETA</Typography>
       </div>
     </div>
   );

@@ -29,8 +29,8 @@ const SLWallet = () => {
         <title>StreamLink</title>
         <meta name="description" content="Send stream links with crypto" />
         <meta property="og:title" content="You received some crypto!" />
-        <meta property="og:url" content="https://www.streamlink.io" />
-        <meta property="og:image" content="https://streamlink.io/streamlink-card-preview.png" />
+        <meta property="og:url" content="https://www.streamlink.zyx" />
+        <meta property="og:image" content="https://streamlink.zyx/streamlink-card-preview.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {(secretKey !== undefined) ? <Wallet secretKey={secretKey}/> : <Progress/>}
