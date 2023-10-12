@@ -23,7 +23,7 @@ export default function FrontPage() {
   const { connection } = useConnection();
   const { setPendingTxn } = useWaitForTxn();
 
-  const onClickEmptyTipLink = (e: MouseEvent<HTMLElement>) => {
+  const onClickEmptyStreamLink = (e: MouseEvent<HTMLElement>) => {
     if(loading) {
       return;
     }
@@ -37,7 +37,7 @@ export default function FrontPage() {
     e.preventDefault();
 
     if(!connected) {
-      alert("Please connect a solana wallet to load value onto a TipLink. Alternatively, create an empty link first.");
+      alert("Please connect a solana wallet to load value onto a StreamLink. Alternatively, create an empty link first.");
       return;
     }
 
@@ -87,9 +87,9 @@ export default function FrontPage() {
               cryptoQuickInputOptions={cryptoQuickInputDefault}
               onValueChange={setInputAmountSOL} 
             />
-            <LoadingButton sx={{m: 2}} variant="contained" onClick={onClickCreateStreamLink} loading={loading}>Create TipLink</LoadingButton>
+            <LoadingButton sx={{m: 2}} variant="contained" onClick={onClickCreateStreamLink} loading={loading}>Create StreamLink</LoadingButton>
             <Typography>
-              Want to deposit value later? <a onClick={onClickEmptyTipLink}>Create an empty TipLink.</a>
+              Want to deposit value later? <a onClick={onClickEmptyStreamLink}>Create an empty StreamLink.</a>
             </Typography>
           </Box>
 
@@ -97,13 +97,13 @@ export default function FrontPage() {
             <Typography variant='h5' className={styles.howTitle}><u>How it works</u></Typography>
             <dl>
               <dt>Create a Tiplink.</dt>
-              <dd>It’s like buying a gift card, create a TipLink by depositing how much you want to send.</dd>
+              <dd>It’s like buying a gift card, create a StreamLink by depositing how much you want to send.</dd>
               <dt>Share a Tiplink.</dt>
-              <dd>Copy the TipLink URL and send it to anyone, or show them the QR code.</dd>
+              <dd>Copy the StreamLink URL and send it to anyone, or show them the QR code.</dd>
               <dt>That's it.</dt>
               <dd>You just sent someone crypto and they can send or use it even if they don’t have a wallet.*</dd>
             </dl>
-            <Typography className={styles.ps}>*Psst, the TipLink is the wallet!</Typography>
+            <Typography className={styles.ps}>*Psst, the StreamLink is the wallet!</Typography>
           </Box>
         </main>
         {/* <Footer/> */}

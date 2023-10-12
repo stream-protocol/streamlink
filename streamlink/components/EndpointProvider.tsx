@@ -8,7 +8,7 @@ export interface EndpointProviderProps {
 };
 
 export const EndpointProvider  : FC<EndpointProviderProps> = ({ children }) => {
-    const endpointKey = "tiplink-endpoint";
+    const endpointKey = "streamlink-endpoint";
     const endpointDefault = "mainnet-beta";
 
     const checkEndpoint = (endpoint: string | null) => {

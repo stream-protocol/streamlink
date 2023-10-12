@@ -1,4 +1,4 @@
-// When we create a new link, we want to redirect the user to their TipLink
+// When we create a new link, we want to redirect the user to their StreamLink
 // before we actually send it to RPC endpoint, just in case SOL is slow
 // This context allows you to store a pending Txn
 import { createContext, useContext, FC, useState, ReactNode } from "react";

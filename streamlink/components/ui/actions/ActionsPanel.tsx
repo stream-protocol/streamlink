@@ -19,7 +19,7 @@ const ActionsPanelComponent = () => {
           depositWallet: <DepositWalletPanel />,
           send: <SendActionsPanel/>,
           sendPubKey: <SendPublicKey/>,
-          createTipLink: <CreateStreamLink/>,
+          createStreamLink: <CreateStreamLink/>,
           withdrawWallet: <WithdrawWallet/>
         }[actionState]
       }

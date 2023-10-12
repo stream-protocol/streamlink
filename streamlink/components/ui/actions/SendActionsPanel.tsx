@@ -22,10 +22,10 @@ const SendActionsPanel = () => {
       <Box style={{textAlign: "center"}}>
         <ActionsPanelRow
           icon={<IconLink />}
-          title="Send as TipLink"
-          subtitle="Create a TipLink with this value that you can share with anyone"
+          title="Send as StreamLink"
+          subtitle="Create a StreamLink with this value that you can share with anyone"
           onClick={() => {
-            setActionState("createTipLink");
+            setActionState("createStreamLink");
           }}/>
         <Divider />
         <ActionsPanelRow

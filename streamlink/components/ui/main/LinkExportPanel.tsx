@@ -84,7 +84,7 @@ const LinkExportPanel: React.FC<Props> = ({url, newTab=false}) => {
         })}
       </Box>
       <QrModal
-        message="Scan this QR code to open directly to this TipLink."
+        message="Scan this QR code to open directly to this StreamLink."
         open={qrOpen}
         value={url}
         handleClose={handleCloseQrCode}/>

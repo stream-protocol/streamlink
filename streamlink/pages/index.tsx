@@ -28,16 +28,16 @@ export default function Home() {
         <meta name="description" content="Send tip links with crypto" />
         {/* <meta property="og:title" content="You received some crypto!" /> */}
         <meta property="og:title" content="Links are now money" />
-        <meta property="og:url" content="https://www.tiplink.io" />
-        <meta property="og:image" content="https://tiplink.io/tiplink-card-preview.png" />
+        <meta property="og:url" content="https://www.streamlink.io" />
+        <meta property="og:image" content="https://streamlink.io/streamlink-card-preview.png" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:site" content="@TipLinkOfficial"/>
+        <meta name="twitter:site" content="@StreamLinkOfficial"/>
         <meta name="twitter:title" content="You received some crypto!"/>
         <meta name="twitter:description" content=""/>
-        <meta name="twitter:url" content="https://www.tiplink.io"/>
-        <meta name="twitter:image" content="http://tiplink.io/tiplink-card-preview.png"/>
+        <meta name="twitter:url" content="https://www.streamlink.io"/>
+        <meta name="twitter:image" content="http://streamlink.io/streamlink-card-preview.png"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='wrap'>

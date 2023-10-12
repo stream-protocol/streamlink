@@ -11,7 +11,7 @@ interface WalletProps {
 
 const Wallet = ({secretKey}: WalletProps) => {
   const linkKeypair = Keypair.fromSecretKey(secretKey);
-  const key = "tiplink-" + linkKeypair.publicKey.toBase58() + '-inserted';
+  const key = "streamlink-" + linkKeypair.publicKey.toBase58() + '-inserted';
 
   const onInsert = (success: boolean) => {
     // TODO should we insert false so that we don't keep retrying if this doesn't work for w/e reason

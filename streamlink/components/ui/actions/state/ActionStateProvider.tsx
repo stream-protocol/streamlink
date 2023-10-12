@@ -14,7 +14,7 @@ export const ActionStateProvider: FC<ActionStateProviderProps> = ({ children }) 
             depositWallet: "deposit",
             send: "initial",
             sendPubKey: "send",
-            createTipLink: "send",
+            createStreamLink: "send",
             withdrawWallet: "send"
         }[actionState];
         if(prevState !== undefined) {
