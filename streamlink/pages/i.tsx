@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Tip Link</title>
+        <title>StreamLink</title>
         <meta name="description" content="Making crypto transactions as simple as sharing a link." />
         {/* <meta property="og:title" content="You received some crypto!" /> */}
         <meta property="og:title" content="You received some crypto!" />

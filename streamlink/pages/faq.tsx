@@ -23,7 +23,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ title, content }) => (
 
 const FAQContent: React.FC = () => (
     <div className='container'>
-        <Typography variant='h4'>Frequently Asked Questions (FAQ) about StreamLink</Typography>
+        <Typography variant='h4'>Frequently Asked Questions (FAQ)</Typography>
         {faqData.map((item, index) => (
             <FAQItem key={index} {...item} />
         ))}

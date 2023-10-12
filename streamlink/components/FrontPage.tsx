@@ -94,7 +94,7 @@ export default function FrontPage() {
           </Box>
 
           <Box className={styles.frontDesc}>
-            <Typography variant='h5' className={styles.howTitle}><u>How it works</u></Typography>
+            <Typography variant='h5' className={styles.howTitle}><u>How it works?</u></Typography>
             <dl>
               <dt>Create a StreamLink.</dt>
               <dd>It’s like buying a gift card, create a StreamLink by depositing how much you want to send.</dd>
