@@ -8,6 +8,8 @@ In today's digital age, the transfer of assets, especially cryptocurrencies, can
 
 Stream**Link** is a lightweight, non-custodial wallet designed with simplicity and user control in mind. Its primary goal? To make transferring digital assets as straightforward as sending a link.
 
+- Stream**Link** is not just another digital wallet. It's a paradigm shift in how we think about and handle digital asset transfers. By merging simplicity with control, Stream**Link** is poised to become an essential tool for both crypto novices and veterans. 
+
 #### Key Features:
 
 1. **Complete Control:** Stream**Link** is non-custodial, meaning you have full control over your assets. No third party holds your funds.
@@ -26,8 +28,14 @@ Stream**Link** is a lightweight, non-custodial wallet designed with simplicity a
    
 3. **No Additional Software:** Forget about downloading multiple apps or browser extensions. StreamLink operates without any of these, making the user experience smooth and clutter-free.
 
-### Conclusion
+## Getting Started
 
-Stream**Link** is not just another digital wallet. It's a paradigm shift in how we think about and handle digital asset transfers. By merging simplicity with control, Stream**Link** is poised to become an essential tool for both crypto novices and veterans. 
+First, run the development server:
 
-**Join the revolution and experience the future of digital transfers today.**
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
