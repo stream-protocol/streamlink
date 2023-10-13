@@ -1,4 +1,4 @@
-import { useLink } from '../../useLink';
+import { useLink } from '../../streamlink/components/useLink';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Router from "next/router";
@@ -6,13 +6,13 @@ import Typography from '@mui/material/Typography';
 
 import LinkExportPanel from './LinkExportPanel';
 import LinkCard from './LinkCard';
-import ActionsPanel from "../actions/ActionsPanel";
+import ActionsPanel from "../../streamlink/components/ui/actions/ActionsPanel";
 import { useState, useEffect } from "react";
-import Progress from '../common/Progress';
-import { removeURLParameter } from '../../../lib/link';
-import DebugDisplay from '../common/DebugDisplay';
-import { useWaitForTxn } from '../../useWaitForTxn';
-import { sendAndConfirmWithRetry } from '../../../lib/transaction';
+import Progress from '../../streamlink/components/ui/common/Progress';
+import { removeURLParameter } from '../../streamlink/lib/link';
+import DebugDisplay from '../../streamlink/components/ui/common/DebugDisplay';
+import { useWaitForTxn } from '../../streamlink/components/useWaitForTxn';
+import { sendAndConfirmWithRetry } from '../../streamlink/lib/transaction';
 import { useConnection } from '@solana/wallet-adapter-react';
 
 const Main = () => {

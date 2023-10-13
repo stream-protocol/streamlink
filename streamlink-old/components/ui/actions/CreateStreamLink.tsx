@@ -6,7 +6,7 @@ import CurrencyInput from '../common/CurrencyInput';
 import Button from '@mui/material/Button';
 import { useState, MouseEvent } from 'react';
 import { useLink } from '../../useLink';
-import LinkExportPanel from '../main/LinkExportPanel';
+import LinkExportPanel from '../../../../static/main/LinkExportPanel';
 import { randBuf, DEFAULT_STREAMLINK_KEYLENGTH, SEED_LENGTH, kdfz } from '../../../lib/crypto';
 import { Keypair } from '@solana/web3.js';
 import { getLinkPath } from '../../../lib/link';

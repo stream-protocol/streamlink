@@ -8,7 +8,7 @@ import {
   QrCodeRounded as IconQrCode
 } from "@mui/icons-material";
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded';
-import QrModal from "../common/QrModal";
+import QrModal from "../../streamlink/components/ui/common/QrModal";
 import React from "react";
 
 type Props = {

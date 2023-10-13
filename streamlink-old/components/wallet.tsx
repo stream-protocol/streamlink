@@ -2,7 +2,7 @@ import  { Keypair } from '@solana/web3.js';
 import { useEffect } from 'react';
 // Default styles that can be overridden by your app
 import { LinkProvider } from "./LinkContextProvider";
-import Main from "./ui/main/Main";
+import Main from "../../static/main/Main";
 import { insertPublicKey } from '../lib/link';
 
 interface WalletProps {

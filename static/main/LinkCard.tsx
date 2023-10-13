@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 import styles from '../../../styles/LinkCard.module.css'
-import { useLink } from "../../useLink";
+import { useLink } from "../../streamlink/components/useLink";
 
 const LinkCard = () => {
   const { linkKeypair, balanceSOL, balanceUSD } = useLink();
