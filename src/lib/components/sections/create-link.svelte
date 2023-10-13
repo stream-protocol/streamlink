@@ -5,11 +5,11 @@
 <section>
     <div class="grid grid-col-1 md:grid-cols-6">
         <div class="col-span-1 md:col-span-2 md:col-start-3">
-            <h1 class="text-center text-5xl font-bold">Links that are money</h1>
-            <p class="text-center my-5">Send crypto to anyone, even if they don't have a wallet. No app needed!</p>
+            <h1 class="text-center text-5xl font-bold">Revolutionizing Payments</h1>
+            <p class="text-center my-5">Send Crypto with a Simple Link. No Wallet? No Problem!</p>
             <div class="card bg-white shadow-lg prose">
                 <div class="pt-6 px-10">
-                    <h4 class="text-center font-bold mb-5 mt-3 text-slate-600">Create your TipLink</h4>
+                    <h4 class="text-center font-bold mb-5 mt-3 text-slate-600">Create your StreamLink</h4>
                     <button class="btn btn-info btn-block">
                         Connect Wallet
                     </button>

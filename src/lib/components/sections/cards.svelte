@@ -10,8 +10,8 @@
                         1
                     </div>
                 </div>
-                <h2 class="font-bold text-2xl mb-3">Create a TipLink</h2>
-                <p>It’s like buying a gift card, connect your crypto wallet of choice and create a TipLink by depositing how much you want to send.</p>
+                <h2 class="font-bold text-2xl mb-3">Create a StreamLink</h2>
+                <p>It’s like buying a gift card, connect your crypto wallet of choice and create a StreamLink by depositing how much you want to send.</p>
             </div>
             <div class="bg-slate-200 p-4 w-full col-span-1 rounded">
                 <div class="flex">
@@ -19,7 +19,7 @@
                         2
                     </div>
                 </div>
-                <h2 class="font-bold text-2xl  mb-3">Share your TipLink</h2>
+                <h2 class="font-bold text-2xl  mb-3">Share your StreamLink</h2>
                 <p>Copy the StreamLink URL and send it to anyone, or simply show them the QR code</p>
             </div>
             <div class="bg-slate-200 p-4 w-full col-span-1 rounded">
