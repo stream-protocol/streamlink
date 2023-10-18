@@ -28,6 +28,6 @@ sniffio==1.2.0
 solana==0.23.0
 types-cachetools==4.2.10
 typing-extensions==3.10.0.2
-urllib3==1.26.9
+urllib3==1.26.18
 websockets==10.2
 zipp==3.7.0
